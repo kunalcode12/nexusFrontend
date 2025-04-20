@@ -8,7 +8,7 @@ Welcome to **Nexus**, a feature-rich, full-stack social media platform crafted t
 
 ## 🎬 Demo Video
 
-👉 [Click here to watch the full demo](https://youtu.be/133XN6AIMfg)
+👉 [![Watch the demo](https://img.youtube.com/vi/133XN6AIMfg/maxresdefault.jpg)](https://www.youtube.com/watch?v=133XN6AIMfg)
 
 ---
 
