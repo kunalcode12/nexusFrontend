@@ -2,14 +2,12 @@ import {
   ArrowBigUp,
   MessageSquare,
   Share2,
-  Award,
   MoreHorizontal,
   Edit,
   Flag,
   Delete,
   BookmarkCheck,
   Bookmark,
-  Image,
   ImageIcon,
   VolumeX,
   Volume2,
@@ -18,8 +16,6 @@ import {
   Minimize2,
   Maximize2,
   X,
-  Check,
-  Copy,
 } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import {
@@ -32,13 +28,9 @@ import {
 import { Button } from "./UI/Button";
 import { Avatar, AvatarImage, AvatarFallback } from "./UI/Avatar";
 import { useState, useEffect, useRef, memo } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  savePostApi,
-  setBookMarkedPost,
-  unsavedPostApi,
-} from "@/store/postSlice";
+import { savePostApi, unsavedPostApi } from "@/store/postSlice";
 import { Alert, AlertDescription } from "./UI/Alerts";
 import CommentModal from "./CommentModel";
 import { getComments, getUserVotes } from "@/store/commentSlice";

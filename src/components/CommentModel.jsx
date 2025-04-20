@@ -4,36 +4,25 @@ import {
   DialogContent,
   DialogOverlay,
   DialogPortal,
-} from "@/components/ui/dialog";
+} from "@/components/UI/dialog";
 import { Button } from "./UI/Button";
 import { Avatar, AvatarImage, AvatarFallback } from "./UI/Avatar";
 import {
   ArrowBigUp,
-  ArrowBigDown,
   MessageSquare,
   Heart,
-  MessageCircle,
   X,
   Trash2,
-  Loader2,
-  Send,
   ImageIcon,
   VolumeX,
   Volume2,
   Pause,
   Play,
-  Award,
   Share2,
 } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  createComment,
-  upvoteReply,
-  resetStatus,
-  getUserVotes,
-  getComments,
-} from "@/store/commentSlice";
+import { createComment, upvoteReply, resetStatus } from "@/store/commentSlice";
 import { deleteComment } from "@/store/commentSlice";
 import { replyToComment } from "@/store/commentSlice";
 import { deleteReply } from "@/store/commentSlice";
