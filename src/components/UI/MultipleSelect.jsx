@@ -3,13 +3,13 @@ import { X } from "lucide-react";
 import * as React from "react";
 import { forwardRef, useEffect } from "react";
 
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/components/UI/badge";
 import {
   Command,
   CommandGroup,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
+} from "@/components/UI/command";
 import { cn } from "@/lib/utils";
 
 const CommandEmpty = forwardRef(({ className, ...props }, forwardedRef) => {
