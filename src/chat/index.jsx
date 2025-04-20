@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import ChatContainer from "./Chat-container";
-import ContactsContainer from "./contacts-container";
-import EmptyChatContainer from "./empty-chat-container";
+import ContactsContainer from "./Contacts-container";
+import EmptyChatContainer from "./Empty-chat-container";
 
 const Chat = () => {
   const {
